@@ -20,3 +20,6 @@ class Animal:
 
     def sound(self, noise="default sound"):
         print(f"{self.__name} makes a {noise} sound")
+
+    def eat(self, food):
+        print(f"{self.__name} is eating {food}")
